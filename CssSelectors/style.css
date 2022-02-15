@@ -1,0 +1,26 @@
+.color-blue .fw-normal {
+    color: blue;
+    font-weight: normal;
+} 
+/*
+Yukarıdaki olay sınıfın alt sınıfı gibi düşünebilirsiniz.
+Aşşağıdaki olay ise ul elementinin son li elementini 50px yap.
+*/
+
+ul> li:last-child{
+    font-size: 50px;
+}
+
+/*
+nth-child 2.elemanı demek.
+*/
+li:nth-child(1){
+    color: red;
+}
+
+li:nth-child(even){
+    color: blue;
+}
+li:nth-child(odd){
+    color: green;
+}
