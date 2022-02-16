@@ -1,0 +1,27 @@
+.container {
+    font-size: 15px;
+    padding: 0.5%;
+    margin-right: 55px;
+    margin-left: 55px;
+    
+
+
+}
+
+.inputText{
+    width: 300px;
+}
+
+.card{
+    
+    background-color: rgb(190, 234, 239);
+    float: left;
+    width: 28.7rem;
+    margin-left: 5px;
+    height: 115px;
+
+}
+
+.grey{
+background-color: rgb(238, 238, 238);
+}
